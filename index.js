@@ -56,7 +56,7 @@ app.listen(process.env.PORT);
   
               let result = Math.floor((Math.random() * TicketList.length))
   
-              let categoryID = "837433971288571975";
+              let categoryID = "938193153381523547";
   
               var bool = false;
   
@@ -87,7 +87,7 @@ app.listen(process.env.PORT);
                           SEND_MESSAGES: false
                       })
                 
-                      chan.updateOverwrite(message.guild.roles.cache.find(s => s.name === "Joao pereira"), {
+                      chan.updateOverwrite(message.guild.roles.cache.find(s => s.name === "Abriu Ticket"), {
                                 VIEW_CHANNEL: true,
                                 SEND_MESSAGES: true
                             })
