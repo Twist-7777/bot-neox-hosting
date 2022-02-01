@@ -87,7 +87,7 @@ app.listen(process.env.PORT);
                           SEND_MESSAGES: false
                       })
                 
-                      chan.updateOverwrite(message.guild.roles.cache.find(s => s.name === "Abriu Ticket"), {
+                      chan.updateOverwrite(message.guild.roles.cache.find(s => s.name === "Suporte Ticket"), {
                                 VIEW_CHANNEL: true,
                                 SEND_MESSAGES: true
                             })
